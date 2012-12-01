@@ -1,0 +1,32 @@
+h0 Listing topics
+
+table
+  tr
+    th Name
+    th User
+    th
+    th
+    th
+
+  - @topics.each do |topic|
+    tr
+      td= topic.name
+      td= topic.user_id
+      td= link_to 'Show', topic
+      td= link_to 'Edit', edit_topic_path(topic)
+      td= link_to 'Destroy', topic, data: {confirm: 'Are you sure?'}, :method => :delete
+
+br
+
+#pagination
+  - if params[:page] > 1
+    .prev
+      a href="?page=#{params[:page] - 1}" pervious page
+  - if params[:page] < 4
+    .next
+      a href="?page=#{params[:page] + 1}" next page
+
+br
+
+= link_to 'New Topic', new_topic_path
+
