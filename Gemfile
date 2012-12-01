@@ -52,3 +52,11 @@ group :development, :test do
   gem "simplecov", require: false
   gem "simplecov-rcov"
 end
+
+# Enable pry debugging
+group :development do
+  gem 'pry'
+  gem 'pry-doc'
+  gem 'pry-rails'
+end
+
