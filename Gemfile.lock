@@ -26,11 +26,11 @@ GIT
 
 GIT
   remote: git://github.com/rails/rails.git
-  revision: 64c53d7ce40006bdfea59102bdac4cb265d3ecd1
+  revision: 129eac024382c7fbdad2007e86cf25778d5f6787
   specs:
     actionmailer (4.0.0.beta)
       actionpack (= 4.0.0.beta)
-      mail (~> 2.5.2)
+      mail (~> 2.5.3)
     actionpack (4.0.0.beta)
       activesupport (= 4.0.0.beta)
       builder (~> 3.1.0)
@@ -87,9 +87,9 @@ GIT
 
 GIT
   remote: git://github.com/rails/turbolinks.git
-  revision: b75edae828bc879bff837460011fec439a312384
+  revision: 00b997127a036470053b2360845dbd8c930e74c2
   specs:
-    turbolinks (0.5.2)
+    turbolinks (0.6.1)
       coffee-rails
 
 GEM
@@ -132,14 +132,14 @@ GEM
     libwebsocket (0.1.7.1)
       addressable
       websocket
-    mail (2.5.2)
+    mail (2.5.3)
       i18n (>= 0.4.0)
       mime-types (~> 1.16)
       treetop (~> 1.4.8)
     method_source (0.8.1)
     mime-types (1.19)
     minitest (4.3.2)
-    multi_json (1.3.7)
+    multi_json (1.4.0)
     nokogiri (1.5.5)
     polyglot (0.3.3)
     pry (0.9.10)
@@ -157,7 +157,7 @@ GEM
     rake (10.0.2)
     rdoc (3.12)
       json (~> 1.4)
-    rspec-core (2.12.0)
+    rspec-core (2.12.1)
     rspec-expectations (2.12.0)
       diff-lcs (~> 1.1.3)
     rspec-mocks (2.12.0)
